@@ -1,0 +1,24 @@
+Objective: To configure a secure firewall on an Ubuntu machine, allowing or denying services and traffic as required.
+
+Requirements:
+
+1)Basic understanding of Linux commands
+2)Ubuntu system (physical or virtual)
+3)Root or sudo access
+
+Key Steps:
+
+1)Update System Packages – Ensures system packages are current.
+2)Install UFW – Installs UFW if not pre-installed on the system.
+3)Enable UFW – Activates UFW to start managing incoming and outgoing traffic.
+4)Configure Rules – Allows or denies access based on services, ports, IP addresses, or subnets.
+5)Firewall Status Check – Provides the current status and rules configured.
+
+Testing:
+Testing is performed using nmap to scan for open ports and confirm that UFW rules are applied correctly.
+
+Configuration Details
+The following rules are implemented in this project:
+
+Allowed: 22/tcp, 443, 443/tcp, 1000:2000/tcp, 192.168.1.0/24
+Denied: 203.0.11.24
