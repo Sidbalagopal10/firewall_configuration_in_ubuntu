@@ -11,7 +11,7 @@ Key Steps:
 1)Update System Packages – Ensures system packages are current.
 2)Install UFW – Installs UFW if not pre-installed on the system.
 3)Enable UFW – Activates UFW to start managing incoming and outgoing traffic.
-4)Configure Rules – Allows or denies access based on services, ports, IP addresses, or subnets.
+4)Configure Rules – Allows or denies access based on services, ports, IP addresses, or subnets(command: sudo ufw allow/deny port/ip address) .
 5)Firewall Status Check – Provides the current status and rules configured.
 
 Testing:
